@@ -56,8 +56,18 @@ body {
   justify-content: space-around;
   grid-column: 2/3;
   list-style: none;
-  gap: 2.4rem;
+  gap: 4.4rem;
   cursor: pointer;
+}
+
+.primary .nav-list .nav-link {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: 550;
+  color: black;
+  padding: 0;
+  gap: 3rem;
+  transform: scale(3);
 }
 
 .nav-link:active,
@@ -80,14 +90,29 @@ li:hover {
   justify-content: right;
   align-items: center;
   gap: 3rem;
-  padding-left: 45rem;
+  padding-left: 30rem;
+}
+
+
+.header-child1 {
+  position: relative;
 }
 
 .logo {
-  height: 3rem;
+  position: absolute;
+  top: -1.2rem;
+  left: .8rem;
+  height: 10rem;
+  width: 10rem;
+  z-index: -1;
   background-color: #fff;
   grid-column: 1/2;
   padding-left: 3.4rem;
+}
+
+.nav-try-live {
+  color: blue !important;
+  font-size: 2rem;
 }
 
 .header-child2 {
@@ -100,18 +125,12 @@ li:hover {
   margin: 0 2rem;
 }
 
-.nav-link {
-  text-decoration: none;
-  font-size: 1.6rem;
-  font-weight: 550;
-  color: black;
-  padding: 0;
-  gap: 3rem;
-}
-
-.nav-try-live {
-  color: blue !important;
-  font-size: 2rem;
+.header-child2 .nav-list .nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  transform: scale(1.5);
+  display: flex;
+  gap: 4rem;
 }
 
 .header-img {
@@ -127,7 +146,7 @@ li:hover {
   height: 60rem;
   display: flex;
   justify-content: center;
-  margin-bottom: 10rem;
+  margin-bottom: 30rem;
 }
 
 .tertiary-header-video {
@@ -221,6 +240,7 @@ li:hover {
 
 .box-color1 {
   width: 60%;
+  height: 100vh;
   background-color: #fbffa7;
   position: relative;
   display: flex;
