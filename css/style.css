@@ -70,18 +70,12 @@ body {
   transform: scale(3);
 }
 
-.nav-link:active,
-.nav-link:hover {
+.primary .nav-list .nav-link:active,
+.primary .nav-list .nav-link:hover {
   color: #ff764d;
 }
 
-li:visited,
-li:link {
-  color: #505050;
-}
-
-li:active,
-li:hover {
+.primary .nav-list .active:visited {
   color: #ff764d;
 }
 
@@ -126,7 +120,7 @@ li:hover {
 }
 
 .header-child2 .nav-list .nav-link {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   transform: scale(1.5);
   display: flex;
