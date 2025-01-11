@@ -43,6 +43,7 @@ body {
   height: 8rem;
   width: 100vw;
   border-bottom: 2px solid #f2f2f2;
+  gap: 1.4rem;
 }
 
 .primary {
@@ -55,7 +56,7 @@ body {
   justify-content: space-around;
   grid-column: 2/3;
   list-style: none;
-  gap: 1.8rem;
+  gap: 2.4rem;
   cursor: pointer;
 }
 
@@ -79,7 +80,7 @@ li:hover {
   justify-content: right;
   align-items: center;
   gap: 3rem;
-  padding-left: 34rem;
+  padding-left: 45rem;
 }
 
 .logo {
@@ -101,15 +102,16 @@ li:hover {
 
 .nav-link {
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-weight: 550;
   color: black;
   padding: 0;
+  gap: 3rem;
 }
 
 .nav-try-live {
   color: blue !important;
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 .header-img {
