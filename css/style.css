@@ -31,7 +31,7 @@ body {
 
 .main {
   margin: auto;
-  border-bottom: 0.2rem solid #f4f4f4;
+  border-bottom: 0.4rem solid #f4f4f4;
 }
 
 .header-child1 {
@@ -183,7 +183,7 @@ body {
 .seven-header-img {
   height: 100vh;
   margin-top: 15rem;
-  margin-bottom: 15rem;
+  margin-bottom: 28rem;
   position: relative;
   display: flex;
   align-items: center;
@@ -339,31 +339,33 @@ body {
 }
 
 .job-img {
-  width: 55%;
+  width: 50%;
 }
 
-.job-img .img-jobs {
-  height: 100vh;
+.img-jobs {
   width: 40vw;
+  height: 45vw;
+  object-fit: cover;
+  object-position: 100% 20%;
 }
 
 .job-info {
-  width: 45%;
-  margin: auto 3rem;
+  width: 50%;
+  margin: auto 10rem;
   display: flex;
   flex-direction: column;
   gap: 3rem;
 }
 
 .company-quotes {
-  font-size: 3rem;
-  font-weight: 500;
-  line-height: 1.2;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.5;
 }
 
 .jobs {
   text-decoration: none;
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 600;
   color: #0000ff;
 }
@@ -449,7 +451,6 @@ body {
 
 .footer-containt {
   margin: 6rem 8rem 6rem 8rem;
-
   display: flex;
   gap: 4rem;
 }
