@@ -79,6 +79,16 @@ body {
   color: #ff764d;
 }
 
+.header-child2 .nav-list .nav-link:active,
+.header-child2 .nav-list .nav-link:hover {
+  color: #ff764d;
+}
+
+.header-child2 .nav-list .active:visited {
+  color: #ff764d;
+}
+
+
 .nav-list span {
   display: flex;
   justify-content: right;
@@ -106,7 +116,7 @@ body {
 
 .nav-try-live {
   color: blue !important;
-  font-size: 2rem;
+  font-size: 2.3rem !important;
 }
 
 .header-child2 {
@@ -443,9 +453,51 @@ body {
 }
 
 .sign-up-email {
-  height: 3vw;
+  height: 4vw;
   width: 22vw;
   border: none;
+  background-color: #eeeeee;
+  font-size: 2rem;
+  font-weight: 400;
+  padding-left: 2rem;
+}
+
+.sign-up-btn {
+  position: absolute;
+  height: 4vw;
+  width: 8vw;
+  border: none;
+  color: white;
+  background-color: #0000ff;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+#select-language {
+  height: 2vw;
+  width: 8vw;
+  border: none;
+  background-color: #eeee;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding-left: 1rem;
+}
+
+#select-state {
+  height: 2vw;
+  width: 12vw;
+  border: none;
+  background-color: #eeee;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding-left: 1rem;
+}
+
+.end-list-link {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: black;
 }
 
 .social-media-symbole {
@@ -456,6 +508,17 @@ body {
 .language-lists {
   display: flex;
   gap: 0.5rem;
+}
+
+.footer-end {
+  margin-bottom: 4rem;
+}
+
+.end-list {
+  padding-left: 25rem;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
 }
 
 .footer-containt {
