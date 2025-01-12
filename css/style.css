@@ -133,14 +133,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10rem;
+  margin-bottom: 10vw;
 }
 
 .secondary-header-img {
   height: 60rem;
   display: flex;
   justify-content: center;
-  margin-bottom: 30rem;
+  margin-bottom: 40rem;
 }
 
 .tertiary-header-video {
@@ -151,7 +151,7 @@ body {
   justify-content: space-around;
   position: relative;
   margin-top: -8.5rem;
-  margin-bottom: 6rem;
+  margin-bottom: 20rem;
 }
 
 .fouth-header-img {
@@ -207,11 +207,11 @@ body {
 .text-page {
   width: 50%;
   margin: auto;
-  margin-bottom: 8rem;
+  margin-bottom: 10rem;
 }
 
 .text-page h1 {
-  font-size: 2.6rem;
+  font-size: 3.2rem;
   font-weight: 600;
   line-height: 1.6;
   margin-bottom: 2rem;
@@ -223,9 +223,13 @@ body {
 }
 
 .text-page p {
-  font-size: 1.7rem;
+  font-size: 2.2rem;
   line-height: 1.8;
   letter-spacing: normal;
+}
+
+.fifth-text-para {
+  margin-top: 2rem;
 }
 
 .empty-box1 {
@@ -233,8 +237,8 @@ body {
 }
 
 .box-color1 {
-  width: 60%;
-  height: 100vh;
+  width: 58vw;
+  height: 58vw;
   background-color: #fbffa7;
   position: relative;
   display: flex;
@@ -244,16 +248,16 @@ body {
 
 .system-img {
   /* Dought */
+  width: 41vw;
   height: 32vw;
-  width: 40vw;
   position: absolute;
-  left: -40rem;
-  top: 10rem;
+  left: -53rem;
+  top: 20rem;
 }
 
 .person-walking {
+  width: 33vw;
   height: 25vw;
-  width: 34vw;
   margin-left: 15rem;
 }
 
@@ -267,15 +271,15 @@ body {
 }
 
 .image-link-video a img {
-  height: 35rem;
+  height: 28vw;
 }
 
 .name-maker {
   font-size: 1.2rem;
   font-weight: 600;
   position: absolute;
-  top: 48rem;
-  left: 33rem;
+  top: 58rem;
+  left: 39rem;
 }
 
 .header-p1 {
